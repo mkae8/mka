@@ -1,0 +1,49 @@
+.container {
+  padding: 10px;
+  display: flex;
+}
+.box {
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+.box1 {
+  background-color: burlywood;
+}
+.box2 {
+  background-color: yellow;
+}
+.box3 {
+  background-color: skyblue;
+}
+.box4 {
+  background-color: black;
+}
+.box5 {
+  background-color: blue;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.second {
+  height: 100px;
+  width: 100px;
+}
+.boxone {
+  background-color: burlywood;
+}
+.boxtwo {
+  background-color: yellow;
+}
+.boxthree {
+  background-color: skyblue;
+}
+.boxfour {
+  background-color: black;
+}
+.boxfive {
+  background-color: blue;
+}

@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+  height: 700px;
+  width: 1500px;
+}
+.text {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1680px;
+  height: 80px;
+  color: white;
+  font-size: 130px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bb1 {
+  display: flex;
+  flex-direction: column;
+}
+.bb2 {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+}
+.longpurp {
+  display: flex;
+  background-color: blueviolet;
+  height: 150px;
+  width: 755px;
+}
+.oranred {
+  display: flex;
+  flex-direction: column;
+}
+.orange {
+  display: flex;
+  gap: 20px;
+
+  background-color: orange;
+  height: 350px;
+  width: 350px;
+}
+.red {
+  background-color: red;
+  margin-top: 10px;
+  height: 190px;
+  width: 350px;
+}
+.bigblue {
+  display: flex;
+  background-color: skyblue;
+  height: 550px;
+  width: 390px;
+}
+.twoshit {
+  display: flex;
+  gap: 20px;
+}
+.twozagal {
+  display: flex;
+  gap: 20px;
+}
+.fistzagal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 500px;
+}
+.rd {
+  background-color: red;
+  height: 170px;
+  width: 350px;
+}
+.blu {
+  background-color: skyblue;
+  height: 140px;
+  width: 350px;
+}
+.ora {
+  background-color: orange;
+  height: 180px;
+  width: 350px;
+}
+.secondzagal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bigblu {
+  background-color: skyblue;
+  height: 180px;
+  width: 350px;
+}
+.smlora {
+  background-color: orange;
+  height: 150px;
+  width: 350px;
+}
+.smlrd {
+  background-color: red;
+  height: 120px;
+  width: 350px;
+}
+
+.footpurp {
+  display: flex;
+  justify-content: flex-start;
+  background-color: blueviolet;
+  height: 180px;
+  width: 720px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

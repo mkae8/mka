@@ -1,0 +1,12 @@
+
+    .bro{
+        height: 50px;
+        width: 50px;
+        background-color: bisque;
+        border: 1px solid red;
+        border-bottom: yellow;
+        border-left: #2adb00;
+        border-right: aquamarine;
+        border-top: blueviolet;
+      }
+      

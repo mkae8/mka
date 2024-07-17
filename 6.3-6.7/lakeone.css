@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+  width: 100vw;
+  height: 50px;
+}
+.layout {
+  width: 1400px;
+  position: relative;
+  background-color: #f4f4f4;
+}
+.bigtop {
+  height: 800px;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+}
+.topText {
+  padding-top: 30px;
+  font-size: 50px;
+}
+.topText1 {
+  color: grey;
+}
+.pic {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 1000px;
+}
+.middletext {
+  width: 300px;
+}
+#tour {
+  color: gray;
+
+  width: 190px;
+}
+#dest {
+  color: black;
+
+  font-size: 30px;
+  width: 300px;
+}
+.bigmiddle {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 950px;
+  position: relative;
+}
+.allofus {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 350px;
+}
+.dot {
+  height: 900px;
+  width: 66px;
+  position: relative;
+}
+.position {
+  position: absolute;
+  height: 100%;
+  top: 15%;
+  left: 50%;
+  border-right: 3px dotted black;
+}
+
+.explore {
+  display: flex;
+  height: 600px;
+  width: 1200px;
+  gap: 50px;
+  position: relative;
+  padding-top: 10px;
+}
+
+#Dnuud {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70px;
+  height: 900px;
+  position: relative;
+}
+.Drevenge {
+  position: absolute;
+  background-color: #1d1f24;
+  color: green;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  border: 3px dotted black;
+}
+#Idnuud {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+  height: 900px;
+  width: 1200px;
+}
+.location {
+  height: 50px;
+  width: 260px;
+  font-size: 24px;
+}
+.citys {
+  font-size: 18px;
+  color: grey;
+}
+.marsh {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 850px;
+  width: 692px;
+  background-repeat: no-repeat;
+  background-image: url(./Group\ 26.png);
+}
+
+.khuvsgul-list:hover ~ .marsh {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./khuvsgul.png);
+}
+.arkhangai-list:hover ~ .marsh {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./khorgo.png);
+}
+.arkhangailist:hover ~ .marsh {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./terkhi.png);
+}
+.monastry-list:hover ~ .marsh {
+  background-size: cover;
+  background-position: center;
+  background-image: url(./khiid.png);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 850px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+
+  height: 160px;
+  width: 300px;
+}
+#pricing {
+  color: grey;
+  font-size: 25px;
+  text-align: center;
+}
+#our {
+  font-size: 40px;
+  text-align: center;
+}
+.packs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 610px;
+}
+.starter {
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  width: 590px;
+}
+.txtuud {
+  display: flex;
+  flex-direction: column;
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 6%;
+  position: relative;
+}
+.txtuudTwo {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 230px;
+  width: 150px;
+}
+.text1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.gry {
+  color: grey;
+  font: 20px;
+  height: 40px;
+}
+.money {
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+
+  height: 40px;
+  width: 200px;
+  font-size: 32px;
+  text-align: end;
+}
+
+.lux {
+  height: 370px;
+  width: 285px;
+  background-color: white;
+  border-radius: 6%;
+
+  position: relative;
+}
+.pcks {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 200px;
+  background-color: white;
+
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+#ehnii {
+  font-size: 24px;
+  font-weight: bold;
+}
+.second {
+  color: grey;
+  font-size: 20px;
+  padding: 3px;
+}
+.bolder {
+  font-weight: bold;
+}
+.moneyTwo {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  height: 40px;
+  width: 200px;
+  font-size: 32px;
+  text-align: end;
+}
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+  width: 1400px;
+  height: 300px;
+}
+.uReadymain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  width: 320px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.bttn {
+  padding: 12px 28px;
+  background-color: #18ba51;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #101010;
+  width: 1400px;
+}
+.footerchild {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 70px;
+}
+.social {
+  padding: 15px 25px;
+  background-color: #303030;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  height: 60px;
+  width: 160px;
+}
+.footerpic {
+  height: 60px;
+}
+.txtuud:hover {
+  border: #18ba51 1px solid;
+}
+.lux:hover {
+  border: #18ba51 1px solid;
+}
+
+.twolinks {
+  position: relative;
+}
+#fblogo {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}
+#instalogo {
+  position: absolute;
+  top: 28%;
+  right: 35%;
+}

@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+.burl {
+  background-color: burlywood;
+}
+.yell {
+  background-color: yellow;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sky {
+  background-color: skyblue;
+}
+.bla {
+  background-color: black;
+}
