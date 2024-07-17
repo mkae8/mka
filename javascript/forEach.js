@@ -244,7 +244,58 @@
 // const data = ["hello", "world"].map((item) => item + "!");
 // console.log(data);
 
-// --------> bodlog 7
+// --------> bodlogo 7
 
-// const data = ["abc", "def"].map((item) => item.reverse);
-// console.log(data);
+// ["abc", "def"] --> ['cba', 'fed']
+
+// const data = ["abc", "def"];
+
+// const reversed = data.map((item) => item.split("").reverse().join(""));
+
+// console.log(reversed);
+
+// ----------> bodlogo 8
+
+// Missing numbers
+
+// ------------ first
+// const num = [1, 2, 3, 4, 6];
+// let temp = [];
+
+// for (let i = 0; i < num.length; i++) {
+//   if (num[i] != i + 1) {
+//     temp = i + 1;
+//     break;
+//   }
+// }
+
+// console.log(temp);
+
+// ------------ second
+
+// const num = [1, 2, 3, 4, 6];
+// //functionaar hiih
+
+// const getMissingNumber = (num) => {
+//   const n = num.length + 1;
+//   const expectSum = (n * (n + 1)) / 2; // daraalsan toonuudiin niilber oldog formula
+//   const actualSum = num.reduce((acc, item) => (acc += item), 0); // acc = 0
+//   return expectSum - actualSum;
+// };
+// console.log(getMissingNumber(num));
+
+// --------> bodlogo 9
+
+// const input = ["hello", "racecar", "world"];
+// let temp = [];
+
+// let input = 12321;
+// let temp = input;
+// let pal = 0;
+
+// while (temp !== 0) {
+//   const last = temp % 10;
+//   pal = pal * 10 + last;
+//   temp = parseInt(temp / 10);
+// }
+// console.log(pal === input);
