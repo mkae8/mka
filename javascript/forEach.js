@@ -1,4 +1,7 @@
 // -------> Bodlogo 0
+
+// find first letter
+
 // const firstLetter = (friuts) => {
 //   let arr = [];
 //   friuts.forEach((el) => {
@@ -286,16 +289,21 @@
 
 // --------> bodlogo 9
 
-// const input = ["hello", "racecar", "world"];
-// let temp = [];
+// palindrome oloh
 
-// let input = 12321;
-// let temp = input;
-// let pal = 0;
+// const input = ["ollo", "racecar", "world"];
+// let pal = [];
 
-// while (temp !== 0) {
-//   const last = temp % 10;
-//   pal = pal * 10 + last;
-//   temp = parseInt(temp / 10);
+// for (let i = 0; i < input.length; i++) {
+//   const word = input[i].toLowerCase();
+//   if (isPalindrome(word)) {
+//     pal.push(word);
+//   }
 // }
-// console.log(pal === input);
+
+// console.log(pal);
+
+// function isPalindrome(str) {
+//   const reversed = str.split('').reverse().join('');
+//   return str === reversed;
+// }
