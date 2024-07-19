@@ -95,3 +95,23 @@
 //   { id: 2, description: "Clean dishes", completed: false },
 //   { id: 3, description: "Buy groceries", completed: false },
 // ];
+
+//   // Bodlogo 9
+
+//   const users1 = [
+//     { id: 1, name: "Alice", email: "alice@example.com" },
+//     { id: 2, name: "Bob", email: "bob@example.com" },
+//   ];
+//   const users2 = [
+//     { id: 2, name: "Bob", email: "bob@example.com" },
+//     { id: 3, name: "Charlie", email: "charlie@example.com" },
+//   ];
+
+//   const concat = users1.concat(users2).reduce((acc, item) => {
+//     const foundItem = acc.find((el) => el?.email === item.email);
+
+//     if (!foundItem) {
+//       acc.push(item);
+//     }
+//     return acc;
+//   }, []);
