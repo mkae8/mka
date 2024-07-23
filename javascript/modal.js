@@ -10,6 +10,8 @@ const sumbit = document.getElementById("submit");
 
 const input = document.getElementById("input");
 
+const successfully = document.getElementById("successfully");
+
 createPost.addEventListener("click", () => {
   modalContaner.style.display = "flex";
 });
@@ -18,4 +20,6 @@ layer.addEventListener("click", () => {
   modalContaner.style.display = "none";
 });
 
-sumbit.addEventListener("click", () => {});
+sumbit.addEventListener("click", () => {
+  successfully.style.display = "flex";
+});
