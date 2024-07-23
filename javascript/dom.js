@@ -29,24 +29,31 @@
 //   result.innerText = parseInt(inputOne.value) * parseInt(inputTwo.value);
 // });
 
-
 // resultBttn.addEventListener("click", () => {
 //   const multi = inputOne.value * inputTwo.value;
 //   result.innerText = multi;
 //   console.log(multi);
 // });
 
-const inputOne = document.getElementById("inputOne");
+// const inputOne = document.getElementById("inputOne");
 
-const inputTwo = document.getElementById("inputTwo");
+// const inputTwo = document.getElementById("inputTwo");
 
-const result = document.getElementById("result");
+// const result = document.getElementById("result");
 
-const resultBttn = document.getElementById("resultBttn");
+// const resultBttn = document.getElementById("resultBttn");
 
-resultBttn.addEventListener("click", () =>{
-    switch() {
-        case 1:
-            inputOne.value * inputTwo.value; 
-    }
-})
+// resultBttn.addEventListener("click", () => {
+//   switch (result) {
+//     case 1:
+//       inputOne.value + inputTwo.value;
+//     case 2:
+//       inputOne.value - inputTwo.value;
+//     case 3:
+//       inputOne.value * inputTwo.value;
+//     case 4:
+//       inputOne.value / inputTwo.value;
+//   }
+//   result.innerText;
+// });
+
