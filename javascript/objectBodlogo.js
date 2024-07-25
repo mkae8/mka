@@ -199,17 +199,17 @@
 // };
 // console.log(updateEvent(2));
 
-const appoint = [
-  { id: 1, description: "Dentist appointment", attended: true },
-  { id: 2, description: "Team meeting", attended: false },
-  { id: 3, description: "Lunch with a friend", attended: false },
-];
+// const appoint = [
+//   { id: 1, description: "Dentist appointment", attended: true },
+//   { id: 2, description: "Team meeting", attended: false },
+//   { id: 3, description: "Lunch with a friend", attended: false },
+// ];
 
-const updated = (itemId) => {
-  const task = appoint.find(({ id }) => itemId === id);
-  if (!task) return "Not found";
-  task.attended = true;
-  return appoint;
-};
+// const updated = (itemId) => {
+//   const task = appoint.find(({ id }) => itemId === id);
+//   if (!task) return "Not found";
+//   task.attended = true;
+//   return appoint;
+// };
 
-console.log(updated());
+// console.log(updated());
