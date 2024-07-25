@@ -71,3 +71,14 @@ document.addEventListener("keyup", (event) => {
     }
   }
 });
+
+document.addEventListener("keyup", (event) => {
+  if (event.key === "r") {
+    i = 50;
+    j = 50;
+    redBox.style.width = `${50}%`;
+    blueBox.style.width = `${50}%`;
+    redNumber.innerText = i;
+    blueNumber.innerText = j;
+  }
+});

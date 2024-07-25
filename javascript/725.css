@@ -16,9 +16,10 @@
   font-size: 100px;
 }
 
-button {
-  height: 20px;
+#resetBtn {
+  height: 50px;
   width: 100px;
+  font-size: large;
 }
 
 .secondContainer {
