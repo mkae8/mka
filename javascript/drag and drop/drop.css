@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 3px;
+  width: 335px;
+  height: 335px;
+  border: 1px solid black;
+}
+.inner-container {
+  height: 162px;
+  width: 162px;
+  background-color: black;
+  border: 1px solid pink;
+}

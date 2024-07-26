@@ -36,11 +36,10 @@ body {
 #layer {
   height: 100vh;
   width: 100vw;
-  background-color: white;
+  background-color:;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 
 .modal {
