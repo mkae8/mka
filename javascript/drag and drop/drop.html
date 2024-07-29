@@ -3,23 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drop and Down</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./drop.css" />
   </head>
+
   <body class="flex-center">
-    <div class="container flex-center">
+    <div class="container">
+
+
       <div class="inner-container flex-center">
-        <div class="inner-container flex-center">
-          <div class="number">1</div>
-        </div>
-        <div class="inner-container flex-center">
-          <div class="number">2</div>
-        </div>
-        <div class="inner-container flex-center">
-          <div class="number">3</div>
-        </div>
+        <div draggable="true" class="numbers flex-center">1</div>
       </div>
+
+      <div class="inner-container flex-center">
+        <div draggable="true" class="numbers flex-center">2</div>
+      </div>
+
+      <div  class="inner-container flex-center">
+        <div draggable="true" class="numbers flex-center">3</div>
+      </div>
+
       <div class="inner-container flex-center"></div>
+
+
     </div>
   </body>
   <script src="./drop.js"></script>

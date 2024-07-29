@@ -14,14 +14,13 @@
   <body>
     <div class="container">
       <div class="secondContainer">
-
-
         <div class="to-do-Main">
           <div class="todoHeader headText">
             To do
             <div id="count">1</div>
           </div>
-          <div id="todoContent">
+
+          <!-- <div id="todoContent">
             <div id="doneBttn">
               <i class="fa-solid fa-check"></i>
             </div>
@@ -34,14 +33,13 @@
               <i class="fa-solid fa-xmark"></i>
               <i class="fa-solid fa-pen-to-square"></i>
             </div>
-          </div>
+          </div> -->
+
           <div class="addCard">
             <i class="fa fa-plus"></i>
             <div>Add card</div>
           </div>
-          
         </div>
-
 
         <div class="in-progress-Main">
           <div class="progressHeader headText">
@@ -54,7 +52,6 @@
           </div>
         </div>
 
-
         <div class="stuckMain">
           <div class="stuchHeader headText">
             Stuck
@@ -66,7 +63,6 @@
           </div>
         </div>
 
-
         <div class="doneMain">
           <div class="doneHeader headText">
             Done
@@ -77,47 +73,47 @@
             <div>Add card</div>
           </div>
         </div>
-
-
       </div>
       <div id="modal-container">
         <div id="layer"></div>
-      <div id="modal">
-        <h1>Add task</h1>
+        <div id="modal">
+          <h1>Add task</h1>
 
-        <div>
+          <div>
             <p>Title</p>
-            <input id="title" name ="title">
-        </div>
-        <div>
+            <input id="title" name="title" />
+          </div>
+          <div>
             <p>Description</p>
-            <textarea name="description" id="description" rows="4" cols="50"></textarea>
-        </div>
+            <textarea
+              name="description"
+              id="description"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </div>
 
-        <div>
+          <div>
             <p>Status</p>
-            <select name="status" id="status">
-                <option value="todo">To do </option>
-                <option value="inprogress">In Progress</option>
-                <option value="stuck">Stuck</option>
-                <option value="done">done</option>
+            <select name="status" id="taskStatus">
+              <option id="todo">To do</option>
+              <option id="inprogress">In Progress</option>
+              <option id="stuck">Stuck</option>
+              <option id="done">done</option>
             </select>
-        </div>
+          </div>
 
-        <div>
+          <div>
             <p>Priority</p>
             <select name="priority" id="priority">
-                <option value="low">Low</option>
-                <option value="medium">Medium</option>
-                <option value="high">High</option>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
             </select>
+          </div>
+          <button id="addTask" type="submit">Add task</button>
         </div>
-        <button type="submit">Add task</button>
-       
-        
-
       </div>
-    </div>
     </div>
   </body>
   <script src="./todo.js"></script>
