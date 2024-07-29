@@ -65,5 +65,3 @@ const taskCreator = (title, description, taskStatus, priority) => {
             </div>
           </div>`;
 };
-
-

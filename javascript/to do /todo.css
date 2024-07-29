@@ -118,6 +118,7 @@
   background-color: #ebecf0;
   border-radius: 10px;
   padding: 8px;
+  gap: 10px;
 }
 
 .stuckMain {
@@ -130,6 +131,7 @@
   background-color: #ebecf0;
   border-radius: 10px;
   padding: 8px;
+  gap: 10px;
 }
 .doneMain {
   display: flex;
@@ -141,6 +143,7 @@
   background-color: #ebecf0;
   border-radius: 10px;
   padding: 8px;
+  gap: 10px;
 }
 #modal-container {
   height: 100vh;
