@@ -1,3 +1,7 @@
+const isLoggedIn = window.localStorage.getItem("token");
+if (isLoggedIn) {
+  window.location.href = "./home.html";
+}
 // document ees barij avah
 const usernameInput = document.getElementById("usernameInput");
 const passwordInputFirst = document.getElementById("passwordInputFirst");

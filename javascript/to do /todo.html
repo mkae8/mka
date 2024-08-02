@@ -3,118 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-    <title>ToDo</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./todo.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="secondContainer">
-        <div class="to-do-Main">
-          <div class="todoHeader headText">
-            To do
-            <div id="count">1</div>
-          </div>
+    <div id="boards"></div>
 
-          <!-- <div id="todoContent">
-            <div id="doneBttn">
-              <i class="fa-solid fa-check"></i>
-            </div>
-            <div id="contentDetails">
-              <div class="title">Todo</div>
-              <div class="contentText">This is ta todo card</div>
-              <div class="highBtn">High</div>
-            </div>
-            <div id="actionBttn">
-              <i class="fa-solid fa-xmark"></i>
-              <i class="fa-solid fa-pen-to-square"></i>
-            </div>
-          </div> -->
-
-          <div class="addCard">
-            <i class="fa fa-plus"></i>
-            <div>Add card</div>
-          </div>
+    <div id="modal-container">
+      <div class="layer" onclick="removeModal()"></div>
+      <div class="modal">
+        <h1>Add task</h1>
+        <div>
+          <label for="title">Tittle</label>
+          <input type="text" id="title" />
         </div>
-
-        <div class="in-progress-Main">
-          <div class="progressHeader headText">
-            In progress
-            <div id="count">0</div>
-          </div>
-          <div class="addCard">
-            <i class="fa fa-plus"></i>
-            <div>Add card</div>
-          </div>
+        <div>
+          <label for="description">Description</label>
+          <textarea type="text" id="description" rows="4"></textarea>
         </div>
-
-        <div class="stuckMain">
-          <div class="stuchHeader headText">
-            Stuck
-            <div id="count">0</div>
-          </div>
-          <div class="addCard">
-            <i class="fa fa-plus"></i>
-            <div>Add card</div>
-          </div>
+        <div>
+          <label for="status">Status</label>
+          <select name="" id="status"></select>
         </div>
-
-        <div class="doneMain">
-          <div class="doneHeader headText">
-            Done
-            <div id="count">0</div>
-          </div>
-          <div class="addCard">
-            <i class="fa fa-plus"></i>
-            <div>Add card</div>
-          </div>
+        <div>
+          <label for="priority">Priority</label>
+          <select name="" id="priority"></select>
         </div>
-      </div>
-      <div id="modal-container">
-        <div id="layer"></div>
-        <div id="modal">
-          <h1>Add task</h1>
-
-          <div>
-            <p>Title</p>
-            <input id="title" name="title" />
-          </div>
-          <div>
-            <p>Description</p>
-            <textarea
-              name="description"
-              id="description"
-              rows="4"
-              cols="50"
-            ></textarea>
-          </div>
-
-          <div>
-            <p>Status</p>
-            <select name="status" id="taskStatus">
-              <option id="todo">To do</option>
-              <option id="inprogress">In Progress</option>
-              <option id="stuck">Stuck</option>
-              <option id="done">done</option>
-            </select>
-          </div>
-
-          <div>
-            <p>Priority</p>
-            <select name="priority" id="priority">
-              <option value="low">Low</option>
-              <option value="medium">Medium</option>
-              <option value="high">High</option>
-            </select>
-          </div>
-          <button id="addTask" type="submit">Add task</button>
-        </div>
+        <button id="add-new-task" onclick="addNewTask()">Add task</button>
       </div>
     </div>
+    <!-- <div class="task">
+      <div>&#10003;</div>
+      <div class="task-text-container">
+        <div class="task-line">
+          <h3>To do</h3>
+          <button>X</button>
+        </div>
+        <div class="task-line">
+          <p>Description</p>
+          <button>E</button>
+        </div>
+        <div class="task-priority">High</div>
+      </div>
+    </div> -->
   </body>
   <script src="./todo.js"></script>
 </html>
