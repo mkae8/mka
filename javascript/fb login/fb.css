@@ -3,3 +3,68 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: color #f2f4f7;
+}
+
+.mainTitle {
+  font-size: 50px;
+  color: #1877f2;
+  font-weight: bold;
+}
+.secondTitle {
+  color: black;
+  width: 370px;
+  height: 80px;
+  font-size: 24px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0.5);
+  border-radius: 8px;
+  width: 400px;
+  height: 350px;
+  padding: 10px 10px;
+  gap: 20px;
+}
+
+#emailPassword {
+  height: 50px;
+  width: 360px;
+  gap: 10px;
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 0, 0.5);
+  margin-top: 10px;
+}
+
+#login {
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  width: 366px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+}
+#signup {
+  background-color: #42b742;
+  color: white;
+  font-size: 20px;
+  width: 195px;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+}

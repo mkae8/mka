@@ -8,24 +8,25 @@
   </head>
   <body>
     <div class="container">
-      <h1>Facebook</h1>
-      <div></div>
-      <div>
-        <button id="signup">Sign Up</button>
+      <div class="mainTitle">
+        facebook
+        <div class="secondTitle">
+          Connect with your friends and the world around you on Facebook
+        </div>
+      </div>
+
+      <div class="loginForm">
+        <input
+          type="text"
+          id="emailPassword"
+          placeholder="Email or phone number"
+        />
+        <input type="text" id="emailPassword" placeholder="Password" />
         <button id="login">Log in</button>
+        <hr />
+        <button id="signup">Sign Up</button>
       </div>
     </div>
   </body>
-  <script>
-    const signUpButton = document.getElementById("signup");
-    const logInButton = document.getElementById("login");
-
-    signUpButton.addEventListener("click", () => {
-      window.location.href = "./sing-up.html";
-    });
-
-    logInButton.addEventListener("click", () => {
-      window.location.href = "./login.html";
-    });
-  </script>
+  <script src="./fb.js"></script>
 </html>
