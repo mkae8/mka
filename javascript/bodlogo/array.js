@@ -160,39 +160,3 @@
 //     console.log(arr[i]);
 //   }
 // }
-document.addEventListener("DOMContentLoaded", function() {
-    const redNumber = document.getElementById("redNumber");
-    const blueNumber = document.getElementById("blueNumber");
-    const redBox = document.getElementById("redBox");
-    const blueBox = document.getElementById("blueBox");
-    const resetBtn = document.getElementById("resetBtn");
-  
-    let i = 50; 
-    redBox.addEventListener("click", () => {
-      i = i + 1;
-      if (i <= 100) {
-        redBox.style.width = `${i}%`;
-        redNumber.innerText = i; 
-      } else {
-        i = 100; // Limit to 100%
-      }
-    });
-  
-    blueBox.addEventListener("click", () => {
-      i = i + 1;
-      if (i <= 100) {
-        blueBox.style.width = `${i}%`;
-        blueNumber.innerText = i; // Update text content
-      } else {
-        i = 100; // Limit to 100%
-      }
-    });
-  
-    resetBtn.addEventListener("click", () => {
-      i = 50; // Reset width percentage
-      redBox.style.width = `${i}%`;
-      blueBox.style.width = `${i}%`;
-      redNumber.innerText = i; // Update text content
-      blueNumber.innerText = i; // Update text content
-    });
-  });
